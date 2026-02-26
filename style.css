@@ -1,0 +1,125 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* ===== COURSE DROPDOWN ===== */
+
+.course-menu {
+  text-align: center;
+  margin: 20px;
+  position: relative;
+}
+
+.course-menu button {
+  padding: 10px 20px;
+  background-color: #6c5ce7;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.course-list {
+  list-style: none;
+  background: #f1f1f1;
+  width: 300px;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 5px;
+  display: none; /* Hidden by default */
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.course-list li {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.course-list li:hover {
+  background-color: #ddd;
+}
+
+/* ===== SEARCH SECTION ===== */
+
+.search-section {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.search-box input {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-box button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #00b894;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* ===== BENEFITS SECTION ===== */
+
+.benefits-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  gap: 40px;
+}
+
+.benefits-image img {
+  width: 300px;
+}
+
+.benefits-content ul {
+  list-style: none;
+  margin-top: 15px;
+}
+
+.benefits-content li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* ===== POPULAR COURSES ===== */
+
+.popular-section {
+  text-align: center;
+  padding: 40px;
+}
+
+.course-container {
+  display: flex;
+  justify-content: center;
+}
+
+.course-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.course-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: contain;
+}
+
+.course-price {
+  display: block;
+  color: green;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
